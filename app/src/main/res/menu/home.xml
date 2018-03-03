@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/itThongBao"
+        android:title="Giỏ hàng"
+        android:icon="@drawable/ic_notifications_white_18dp"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_item_thongbao"
+        />
+
+    <item
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="more"
+        app:showAsAction="always"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/action_setting"
+                android:title="Setting"
+                />
+        </menu>
+
+
+    </item>
+
+</menu>

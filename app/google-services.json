@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "482736433340",
+    "firebase_url": "https://mayao-fc918.firebaseio.com",
+    "project_id": "mayao-fc918",
+    "storage_bucket": "mayao-fc918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482736433340:android:e36339f8930bf3d6",
+        "android_client_info": {
+          "package_name": "com.example.minhnguyen.mayao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482736433340-6pe3i8fkd7j2g5m9ji5fmu1kmd22o1l3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minhnguyen.mayao",
+            "certificate_hash": "c38db9b930500607179cdeb0a5b030569b6b8272"
+          }
+        },
+        {
+          "client_id": "482736433340-9viq7frcnallvmoukirn9cd31997qvqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFXZTjOx92bI5TkjZWldpElqBf2GuEAMM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482736433340-9viq7frcnallvmoukirn9cd31997qvqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

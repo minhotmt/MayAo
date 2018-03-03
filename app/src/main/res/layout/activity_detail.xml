@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:weightSum="10"
+tools:context="com.example.minhnguyen.mayao.activity.Detail">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginLeft="30sp"
+        android:id="@+id/chartCpu"
+        android:layout_width="300dp"
+        android:layout_height="150sp">
+
+    </com.github.mikephil.charting.charts.LineChart>
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginLeft="30sp"
+        android:id="@+id/chartRam"
+        android:layout_width="300dp"
+        android:layout_height="150sp">
+
+    </com.github.mikephil.charting.charts.LineChart>
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_marginLeft="30sp"
+        android:id="@+id/chartDisk"
+        android:layout_width="300dp"
+        android:layout_height="150sp"
+        >
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+
+</LinearLayout>
